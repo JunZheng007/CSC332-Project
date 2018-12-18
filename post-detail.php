@@ -82,16 +82,21 @@ $user = 'jun';
     $comment->close();
     ?>
 
-    <article class="input">
-        <form action="save-comment.php" method="post">
-                <textarea name="comment" class="comment"
-                          placeholder="Enter your comment of this project!"
-                          maxlength="300"></textarea>
-            <input type="hidden" name="id" value="<?php echo $id ?>">
-            <input type="hidden" name="user" value="<?php echo $user ?>">
-            <input type="submit" name="submit" class="submit" value="submit">
-        </form>
-    </article>
+    <?php
+
+    if ($user != 0) {
+        echo "<article class='input' >
+                <form action = 'save-comment.php' method = 'post' >
+                    <textarea name = 'comment' class='comment'
+                          placeholder = 'Enter your comment of this project!'
+                          maxlength = '300' ></textarea >
+                    <input type = 'hidden' name = 'id' value = '<?php echo $id ?>' >
+                    <input type = 'hidden' name = 'user' value = '<?php echo $user ?>' >
+                    <input type = 'submit' name = 'submit' class='submit' value = 'submit' >
+                </form >
+            </article >";
+    }
+    ?>
 </div>
 </body>
 </html>
