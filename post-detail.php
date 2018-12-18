@@ -84,7 +84,7 @@ $user = 'jun';
 
     <?php
 
-    if ($user != 0) {
+    if ($id != 0 && $user != "") {
         echo "<article class='input' >
                 <form action = 'save-comment.php' method = 'post' >
                     <textarea name = 'comment' class='comment'
