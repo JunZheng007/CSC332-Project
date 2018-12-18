@@ -1,0 +1,30 @@
+/*layout*/
+@import "var";
+@import "content";
+@import "admin";
+@import "form";
+
+
+*{
+  box-sizing: border-box;
+}
+
+html, body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: $font-base, sans-serif;
+  background: $white;
+  color: $gray;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.off-site{
+  padding-top: 40px;
+  display: block;
+}

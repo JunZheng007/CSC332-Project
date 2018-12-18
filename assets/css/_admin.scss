@@ -1,0 +1,32 @@
+#admin-panel{
+  display: block;
+  background: $black;
+  opacity: .7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 100;
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li:first-child{
+      margin-left: 5em;
+      float: left;
+    }
+    li:last-child{
+      margin-right: 5em;
+      float: right;
+    }
+    @include clearFix;
+  }
+  a{
+    color: $lightGray;
+    text-decoration: none;
+    &:hover{
+      color: $white;
+      transition: .5 all;
+    }
+  }
+}

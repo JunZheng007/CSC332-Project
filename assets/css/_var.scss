@@ -1,0 +1,48 @@
+
+$eggshell: #F0EAD6;
+$white: #ffffff;
+$black: #000000;
+$gray: #333333;
+$lightGray: #cccccc;
+$darkGray: #999999;
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+$font-base: 'Open Sans';
+
+
+/*Mixin*/
+@mixin clearFix {
+  &:after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 1;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin horizontal-align($position: relative) {
+  position: $position;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@mixin vh-align($position: relative) {
+  position: $position;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}

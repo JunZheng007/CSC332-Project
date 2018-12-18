@@ -1,0 +1,44 @@
+
+.post-box{
+
+  input[type="text"]{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: .8em;
+    color: $gray;
+    padding: 8px;
+    width: 80%;
+  }
+  select{
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  textarea{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: .8em;
+    color: $gray;
+    padding: 8px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    resize: none;
+  }
+  input[type="submit"]{
+    display: block;
+    border: 1px solid $darkGray;
+    border-radius: 3px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: $white;
+    background: $gray;
+    padding: 8px 15px;
+    margin: 10px auto;
+
+    &:hover{
+      background: #666;
+      transition: .3s all;
+    }
+  }
+
+}

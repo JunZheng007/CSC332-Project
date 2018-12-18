@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+.container {
+    position: relative;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0
+}
+
+.container:after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 1;
+    visibility: hidden;
+    clear: both
+}
+
+.body-background {
+    background-image: url("http://www.scott-sherwood.com/wp-content/uploads/2011/10/TutorialFinal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: relative
+}
+
+.content-box {
+    position: relative;
+    margin: 30px auto;
+    padding: 0
+}
+
+.content-box:after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 1;
+    visibility: hidden;
+    clear: both
+}
+
+.post-box {
+    display: block;
+    background: #F0EAD6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    opacity: .98;
+    z-index: 99
+}
+
+.post-box section {
+    padding: 10px 0;
+    margin: 5px 0
+}
+
+#admin-panel {
+    display: block;
+    background: #000;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100
+}
+
+#admin-panel ul {
+    margin: 0;
+    padding: 0
+}
+
+#admin-panel ul li:first-child {
+    margin-left: 5em;
+    float: left
+}
+
+#admin-panel ul li:last-child {
+    margin-right: 5em;
+    float: right
+}
+
+#admin-panel ul:after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 1;
+    visibility: hidden;
+    clear: both
+}
+
+#admin-panel a {
+    color: #ccc;
+    text-decoration: none
+}
+
+#admin-panel a:hover {
+    color: #fff;
+    transition: .5 all
+}
+
+.post-box input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: .8em;
+    color: #333;
+    padding: 8px;
+    width: 80%
+}
+
+.post-box select {
+    padding: 5px 0;
+    margin: 5px 0
+}
+
+.post-box textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: .8em;
+    color: #333;
+    padding: 8px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    resize: none
+}
+
+.post-box input[type="submit"] {
+    display: block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #333;
+    padding: 8px 15px;
+    margin: 10px auto
+}
+
+.post-box input[type="submit"]:hover {
+    background: #666;
+    transition: .3s all
+}
+
+* {
+    box-sizing: border-box
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.off-site {
+    padding-top: 40px;
+    display: block
+}

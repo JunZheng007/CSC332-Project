@@ -1,0 +1,58 @@
+
+
+.container{
+  position: relative;
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  @include clearFix;
+}
+
+.body-background{
+  background-image: url("http://www.scott-sherwood.com/wp-content/uploads/2011/10/TutorialFinal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  position: relative;
+  
+}
+
+.content-box{
+  position: relative;
+  margin: 30px auto;
+  padding: 0;
+  @include clearFix;
+}
+
+.post-box{
+  display: block;
+  background: $eggshell;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  opacity: .98;
+  z-index: 99;
+
+  // @include vh-align();
+}
+
+.post-box{
+
+  .header{
+    .title{}
+  }
+  section{
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+
+}

@@ -1,0 +1,91 @@
+#title {
+    margin: 0;
+    padding: 50px 0 20px 50px;
+    font-size: 30px;
+    color: red;
+}
+
+.post, .detail {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#posts, .user, .input {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    justify-content:center;
+}
+
+#posts {
+    padding: 0 150px 0 150px;
+}
+
+.post{
+    margin: 10px auto 10px auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:stretch;
+    justify-content: center;
+    background: #F0EAD6;
+}
+
+.user {
+    float: left;
+    flex: 1;
+    padding: 10px 10px 10px 10px;
+}
+
+.detail {
+    margin: 10px 10px 10px 10px;
+    float: left;
+    flex: 9;
+    font-family: Sans-serif, serif;
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.main {
+    border: 3px solid blue;
+}
+
+.input {
+    width: 100%;
+}
+
+.input form {
+    width: 90%;
+}
+
+.comment {
+    border: 3px solid red;
+    margin: 50px auto auto auto;
+    width: 100%;
+    height: 100px;
+    line-height: 12px;
+}
+
+.submit {
+    display: block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #333;
+    padding: 8px 15px;
+    margin: 10px auto
+}
+
+.submit:hover {
+    background: #666;
+    transition: .3s all
+}
